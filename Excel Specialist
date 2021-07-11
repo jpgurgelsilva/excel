@@ -1,0 +1,39 @@
+Funções e Fórmulas
+
+=SOMA(número1;[número2];...)
+=PROCV(valor_procurado;matriz_tabela;núm_índice_coluna/linha;[intervalo_pesquisa])
+
+Fórmulas de Lógica
+
+=SE(teste_lógico);[valor_verdadeiro];[valor_falso]
+=SE(E(logica1;[lógica2]:...);[valor_verdadeiro};[valor_falso])
+=SE(OU(logica1;[lógica2];...);[valor_verdadeiro];[valor_falso])
+=SE(teste_lógico;[valor_verdadeiro];[valor_falso];SE(teste_lógico;[valor_verdadeiro];[valor_falso];...)))
+
+=CONT.SE(intervalo;"critério")
+=SOMASE(intervalo;"critério";[intervalo_soma])
+=MÉDIASE(intervalo;"critério";[intervalo_média])
+=MÉDIASES(intervalo_média;intervalo_critérios1;"critérios1";[intervalo_critérios2;"critérios2"];...)
+
+Fórmulas de Pesquisa e Referência
+
+=PROCV(valor_procurado;matriz_tabela;núm_indice_coluna;[procurar_intervalo])
+=PROCH(valor_procurado;matriz_tabela;núm_indice_linha;[procurar_intervalo])
+=CORRESP(valor_procurado;matriz_procurada;[tipos_correspondência]
+=DESLOC(referência;linhas;colunas;)
+=ÍNDICE(matriz;linha;[coluna])
+
+Fórmulas de Texto
+
+=ESQUERDA(texto;[núm_caracteres])
+=DIREITA(texto;[núm_caracteres])
+=ARRUMAR(texto)
+=NÚM_CARACT(texto)
+=PROCURAR("texto_procurado";no_texto;[núm_inicial])
+=EXT.TEXTO(texto;núm_inicial;[núm_caracters])
+=MAIÚSCULA(texto)
+=MINÚSCULA(texto)
+=PRI.MAIÚSCULA(texto)
+=CONCACT(texto1;["texto2"];...)
+=MUDAR(texto_antigo;núm_inicial;núm_caracteres;[novo_texto])
+=SUBSTITUIR(**texto_antigo;novo_texto;[núm_ocorrências])
